@@ -19,179 +19,228 @@
 </head>
 
 <body>
-    <header class="flex items-center mr-30 ml-30 mt-16 gap-5">
+    <header class="max-w-10/12 mx-auto mt-10 space-y-10  md:flex md:items-center md:justify-between">
+        <!-- Banner description -->
         <div class="space-y-5">
-            <h1 class="text-7xl font-bold">It's good
+            <h1 class="text-5xl font-bold">It's good
                 tea time at The Tea House</h1>
-            <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-            <button class="p-3 bg-linear-to-r from-orange-700  to-orange-400 text-white flex gap-2">Explore more <img
-                    src="./images/arrow.png" alt=""></button>
+            <p class="text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+            </p>
+            <button
+                class="px-5 py-3 text-white bg-linear-to-r from-orange-200 via-orange-400 to-orange-600  flex gap-2">Explore
+                More <img src="./images/arrow.png" alt=""></button>
         </div>
-        <div class="relative">
-            <img src="./images/banner.png" alt="" class="w-full">
-            <div class="absolute top-50 bg-white p-4 rounded-sm flex items-center gap-4">
-                <i class="fa-solid fa-star text-amber-300 text-2xl"></i>
+        <!-- Banner Image -->
+        <div class="relative flex justify-center">
+            <img src="./images/banner.png" alt="" class="w-xl">
+            <!-- floating rating box -->
+            <div
+                class="absolute top-70 right-70 bg-white px-7 py-3 rounded-sm flex gap-2 items-center md:top-50 md:right-40 lg:top-60 lg:right-60">
+                <i class="fa-solid fa-star text-yellow-400"></i>
                 <div>
-                    <p class="text-xl font-bold">5.00</p>
-                    <p>Trust Pilot Ratings</p>
+                    <p class="font-bold">5.00</p>
+                    <p class="text-[#777777]">Rating</p>
                 </div>
             </div>
         </div>
     </header>
-
-    <body>
-        <section id="section-1" class="mr-30 ml-30 mt-16 space-y-10 text-center">
-            <h1 class="text-3xl font-bold">Our Featured Products</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+    <main class="max-w-10/12 mx-auto">
+        <!-- section-1 -->
+        <section class="mx-auto mt-20 space-y-5 ">
+            <h1 class="text-5xl font-bold text-center">Our Featured Products</h1>
+            <p class="text-center text-[#777777]">There are many variations of passages of Lorem Ipsum available, but
+                the majority have
+                suffered alteration
                 in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-            <div class="flex gap-5 ">
-                <div class="flex flex-col items-center space-y-2 bg-gra bg-linear-to-b from-gray-100 to-gray-50">
-                    <img src="./images/tea-1.png" alt="" class="h-[160px]">
-                    <h1 class="text-xl font-bold">Milk Tea</h1>
-                    <p>Creamer could be replaced by fresh milk</p>
+            <!-- product description -->
+            <div class="grid grid-cols-2 gap-5 justify-center items-center lg:grid-cols-4">
+                <!-- product cards -->
+                <div
+                    class="space-y-5 flex flex-col justify-center items-center p-3 bg-linear-to-b from-gray-300 from-0% via-gray-200 via-20% to-gray-50 rounded-sm">
+                    <img src="./images/tea-1.png" alt="">
+                    <h3 class="text-3xl font-bold">Milk Tea</h3>
+                    <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
                 </div>
-                <div class="flex flex-col items-center space-y-2 bg-linear-to-b from-gray-100 to-gray-50">
-                    <img src="./images/tea-2.png" alt="" class="h-[160px]">
-                    <h1 class="text-xl font-bold">Black Tea</h1>
-                    <p>Creamer could be replaced by fresh milk</p>
+                <!-- product cards -->
+                <div
+                    class="space-y-5 flex flex-col justify-center items-center p-3 bg-linear-to-b from-gray-300 from-0% via-gray-200 via-20% to-gray-50 rounded-sm">
+                    <img src="./images/tea-2.png" alt="">
+                    <h3 class="text-3xl font-bold">Black Tea</h3>
+                    <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
                 </div>
-                <div class="flex flex-col items-center space-y-2 bg-linear-to-b from-gray-100 to-gray-50">
-                    <img src="./images/tea-3.png" alt="" class="h-[160px]">
-                    <h1 class="text-xl font-bold">Lemon Tea</h1>
-                    <p>Creamer could be replaced by fresh milk</p>
+                <!-- product cards -->
+                <div
+                    class="space-y-5 flex flex-col justify-center items-center p-3 bg-linear-to-b from-gray-300 from-0% via-gray-200 via-20% to-gray-50 rounded-sm">
+                    <img src="./images/tea-3.png" alt="">
+                    <h3 class="text-3xl font-bold">Lemon Tea</h3>
+                    <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
                 </div>
-                <div class="flex flex-col items-center space-y-2 bg-linear-to-b from-gray-100 to-gray-50">
-                    <img src="./images/tea-4.png" alt="" class="h-[160px]">
-                    <h1 class="text-xl font-bold">Green Tea</h1>
-                    <p>Creamer could be replaced by fresh milk</p>
+                <!-- product cards -->
+                <div
+                    class="space-y-5 flex flex-col justify-center items-center p-3 bg-linear-to-b from-gray-300 from-0% via-gray-200 via-20% to-gray-50 rounded-sm">
+                    <img src="./images/tea-4.png" alt="">
+                    <h3 class="text-3xl font-bold">Green Tea</h3>
+                    <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
                 </div>
             </div>
         </section>
-        <section id="section-2" class="mr-30 ml-30 mt-16 flex gap-5">
-            <div class=" grid grid-cols-2 grid-rows-3 gap-5 ">
-                <div class="w-45 bg-linear-to-r from-yellow-200 from-10% to-yellow-50 to-100%"></div>
-                <div class="w-45 row-span-2 bg-amber-100 p-8 flex items-center justify-center"><img class="w-25 h-35"
-                        src="./images/fresh-1.png" alt="">
+        <!-- section-2 -->
+        <section class="mt-20 flex flex-col-reverse text-center gap-10 md:flex-row md:text-start">
+            <!-- card container -->
+            <div class="flex-1 grid grid-cols-2 grid-rows-3 gap-5">
+                <!-- card -->
+                <div class=" h-full bg-linear-to-r from-rose-300 via-red-200 via-20% to-red-50"></div>
+                <!-- card -->
+                <div
+                    class="row-span-2 flex justify-center items-center bg-linear-to-b  from-amber-200 from-0% via-amber-100 via-20% to-yellow-50 to-40%">
+                    <img src="./images/fresh-1.png" alt="">
                 </div>
-                <div class="w-45 row-span-2 bg-gray-100 p-8 flex items-center justify-center"><img class="w-25 h-35"
-                        src="./images/fresh-2.png" alt=""></div>
-                <div class="w-45 bg-linear-to-r from-gray-200 to-gray-50"></div>
+                <!-- card -->
+                <div
+                    class="row-span-2 flex justify-center items-center bg-linear-to-b from-gray-300 via-gray-200 via-20% to-gray-50">
+                    <img src="./images/fresh-2.png" alt="">
+                </div>
+                <!-- card -->
+                <div class="h-full bg-linear-to-r from-gray-300 via-gray-200 via-20% to-gray-50"></div>
             </div>
-            <div class="flex-1  pl-12 space-y-4">
+            <!-- section description -->
+            <div class="flex-1 space-y-4">
                 <h1 class="text-5xl font-bold">Great Tea, Freshly Presented</h1>
-                <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It
+                <p class="text-[#777777]">The meaning of gong cha is chanese is to provide the best tea to emperor from
+                    all possessions . It
                     represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply
                     appreciated by its custoers because of good words of mouth and unique customized service orginated
                     from Taiwan.</p>
-                <h2 class="text-xl font-bold">Unique Taste</h2>
-                <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
-                <h2 class="text-xl font-bold">Premium Quality</h2>
-                <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                <h3 class="text-3xl font-bold">Unique Taste</h3>
+                <p class="text-[#777777]">A Unique and different style from other teapots gives a luxurious and
+                    minimalist impression</p>
+                <h3 class="text-3xl font-bold">Premium Quality</h3>
+                <p class="text-[#777777]">Premium Quality that makes tea more elegant and more durable when you use it.
+                </p>
             </div>
         </section>
-        <section id="section-3"
-            class="mr-30 ml-30 mt-16 p-10 flex justify-between items-center gap-30 bg-linear-to-l from-orange-700 from-40%  to-orange-400 to-100%">
-            <div class=" flex-1 space-y-3">
+        <!-- section-3 -->
+        <section
+            class="mt-20 relative rounded-lg p-10 space-y-5 bg-linear-to-l from-orange-600  via-orange-400 via-35% to-orange-200 md:flex md:items-center gap-10">
+            <!-- section-3 description -->
+            <div class="space-y-5 flex-1">
                 <h1 class="text-5xl font-bold text-white">Meet Our Super Clients</h1>
                 <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority
                     have suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable. </p>
-                <button class="text-orange-600 bg-white pt-3 pb-3 pr-5 pl-5 rounded-sm">Show all</button>
+                <button class="text-orange-600 bg-white px-5 py-3 rounded-sm">Show All</button>
             </div>
-            <div class="flex-1 space-y-10 relative">
-                <div class="w-full space-y-2 bg-white p-6 pt-8 pb-8  rounded-sm absolute top-25 right-15 z-1">
-                    <p>We are providing the best and suitable home insurance services for the people who are interested
-                        to treatment</p>
-                    <p class="font-bold">Ilham Yuda</p>
-                    <p>Businessman</p>
-                    <img class="absolute bottom-45 right-80" src="./images/client.png" alt="">
+            <!-- Client details -->
+            <div class="space-y-5 flex-1">
+                <div class="absolute top-100 right-2 z-10 sm:right-5 md:top-40 md:w-1/2">
+                    <div class="bg-white p-10 relative rounded-lg ">
+                        <p class="text-[#777777]">We are providing the best and suitable home insurance services for the
+                            people who are
+                            interested
+                            to
+                            treatment</p>
+                        <p class="font-bold">Ilham Yuda</p>
+                        <p class="text-[#777777]">Businessman</p>
+                        <img src="./images/client.png" alt="" class="absolute bottom-30 -left-5">
+                    </div>
                 </div>
-                <div class="w-full space-y-2 bg-white p-6 pt-8 pb-8  rounded-sm relative opacity-40">
-                    <p>We are providing the best and suitable home insurance services for the people who are interested
-                        to treatment</p>
+                <div class="bg-white p-10 relative rounded-lg opacity-40">
+                    <p class="text-[#777777]">We are providing the best and suitable home insurance services for the
+                        people who are interested
+                        to
+                        treatment</p>
                     <p class="font-bold">Ilham Yuda</p>
-                    <p>Businessman</p>
-                    <img class="absolute bottom-45 right-80" src="./images/client.png" alt="">
+                    <p class="text-[#777777]">Businessman</p>
+                    <img src="./images/client.png" alt="" class="absolute bottom-30 -left-5">
                 </div>
-                <div class="space-y-2 bg-white p-6 rounded-sm relative  opacity-40">
-                    <p>We are providing the best and suitable home insurance services for the people who are interested
-                        to treatment</p>
+                <div class="bg-white p-10 relative rounded-lg opacity-40">
+                    <p class="text-[#777777]">We are providing the best and suitable home insurance services for the
+                        people who are interested
+                        to
+                        treatment</p>
                     <p class="font-bold">Ilham Yuda</p>
-                    <p>Businessman</p>
-                    <img class="absolute bottom-45 right-80" src="./images/client.png" alt="">
+                    <p class="text-[#777777]">Businessman</p>
+                    <img src="./images/client.png" alt="" class="absolute bottom-30 -left-5">
                 </div>
             </div>
         </section>
-        <section id="section-4" class="mr-30 ml-30 mt-16 space-y-5">
-            <h1 class="text-5xl  font-bold text-center">News & Events</h1>
-            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have
-                suffered alteration
-                in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-            <div class="flex gap-5">
-                <div class="border rounded-xl space-y-3 p-3">
-                    <img src="./images/news-1.png" alt="">
-                    <p>Feb 05, 2027</p>
-                    <h2 class="font-bold">Collecting 8 points for discount</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available.</p>
-                    <a href="">Learn More</a>
+        <!-- section-4 -->\
+        <section class="space-y-5">
+            <h1 class="text-5xl font-bold text-center">News & Events</h1>
+            <p class="text-center text-[#777777]">There are many variations of passages of Lorem Ipsum available, but
+                the majority have
+                suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable. </p>
+            <!-- news card container -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+                <!-- news card -->
+                <div class="space-y-3 border p-5 rounded-xl">
+                    <img src="./images/news-1.png" alt="" class="w-full">
+                    <p class="text-[#777777]">Feb 05, 2027</p>
+                    <h3 class="text-3xl font-bold">Collecting 8 points for discount</h3>
+                    <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                    <a href="" class="font-bold">Learn More</a>
                 </div>
-                <div class="border rounded-xl space-y-3 p-3">
-                    <img src="./images/news-1.png" alt="">
-                    <p>Feb 05, 2027</p>
-                    <h2 class="font-bold">Collecting 8 points for discount</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available.</p>
-                    <a href="">Learn More</a>
+                <!-- news card -->
+                <div class="space-y-3 border p-5 rounded-xl">
+                    <img src="./images/news-2.png" alt="" class="w-full">
+                    <p class="text-[#777777]">Feb 05, 2027</p>
+                    <h3 class="text-3xl font-bold">Collecting 8 points for discount</h3>
+                    <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                    <a href="" class="font-bold">Learn More</a>
                 </div>
-                <div class="border rounded-xl space-y-3 p-3">
-                    <img src="./images/news-1.png" alt="">
-                    <p>Feb 05, 2027</p>
-                    <h2 class="font-bold">Collecting 8 points for discount</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available.</p>
-                    <a href="">Learn More</a>
+                <!-- news card -->
+                <div class="space-y-3 border p-5 rounded-xl">
+                    <img src="./images/news-3.png" alt="" class="w-full">
+                    <p class="text-[#777777]">Feb 05, 2027</p>
+                    <h3 class="text-3xl font-bold">Collecting 8 points for discount</h3>
+                    <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                    <a href="" class="font-bold">Learn More</a>
                 </div>
             </div>
         </section>
-    </body>
-    <footer class="bg-black">
-        <div class="mr-30 ml-30 mt-16 space-y-5 text-white text-center">
-            <div class="flex justify-between items-center pt-10 pb-5 border-b border-white">
-                <img class="w-14 bg-amber-50" src="./images/bg_cup.png" alt="">
-                <div class="flex gap-4 items-center">
-                    <p>Ready to get strated?</p>
-                    <button class="p-4 rounded-sm bg-white text-black">Get Started</button>
+    </main>
+    <footer class=" bg-black ">
+        <div class="max-w-10/12 mx-auto space-y-10 ">
+            <div class="flex justify-between items-center border-b border-white p-5">
+                <img src="./images/bg_cup.png" alt="" class="w-28">
+                <div class="flex gap-5">
+                    <p class="text-white">Ready to get Started?</p>
+                    <button class="text-black bg-white px-5 py-3">Get Started</button>
                 </div>
             </div>
-            <div class="flex justify-between">
-                <div class="space-y-2 text-start">
+            <div class="flex flex-wrap gap-20 justify-between items-center">
+                <div class="text-white text-start space-y-5">
                     <h3 class="text-xl">Quick Links</h3>
                     <p>Home</p>
                     <p>About Us</p>
-                    <p>INsurance</p>
-                    <p>privacy Policy</p>
+                    <p>Insurance</p>
+                    <p>Privacy Policy</p>
                 </div>
-                <div class="space-y-2 text-start">
-                    <h3 class="text-xl">Our services</h3>
-                    <p>Home Insurance</p>
-                    <p>Car Insurance</p>
+                <div class="text-white text-start space-y-5">
+                    <h3 class="text-xl">Our Service</h3>
                     <p>Life Insurance</p>
+                    <p>Car Insurance</p>
+                    <p>Health Insurance</p>
+                    <p>House Insurance</p>
                 </div>
-                <div class="space-y-2 text-start">
-                    <h3>Help</h3>
-                    <p>Contact Us</p>
+                <div class="text-white text-start space-y-5">
+                    <p>Help</p>
                     <p>FAQs</p>
+                    <p>Contact Us</p>
                 </div>
-                <div class="space-y-4 text-start">
-                    <h2 class="text-2xl">Subscribe to our <br>newsletter</h2>
-                    <input type="email" name="" id="" placeholder="Email Address" class="rounded-sm border-b">
-                    <div id="icon-box" class="space-x-2">
-                        <i class="fa-brands fa-facebook text-white"></i>
-                        <i class="fa-brands fa-linkedin text-white"></i>
-                        <i class="fa-brands fa-twitter text-white"></i>
+                <div class="text-white text-start space-y-5">
+                    <h3 class="text-xl">Subscribe to our newsletter</h3>
+                    <input type="email" placeholder="Email Address" class="border-b border-white">
+                    <div class="text-white space-x-5">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-threads"></i>
+                        <i class="fa-brands fa-twitter"></i>
                     </div>
                 </div>
             </div>
-            <p>@ 2027 UIDesign.to - All rights reserved.</p>
+            <p class="text-white text-center">© 2027 UIDesign.to - All rights reserved.</p>
         </div>
     </footer>
 </body>
